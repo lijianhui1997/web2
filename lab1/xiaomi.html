@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		window.onload = function(){
+			var aNodes = document.getElementsByTagName("a");
+			for (var i=0; i<aNodes.length; i++)
+			{
+				aNodes[i].onmouseover = function(){
+					this.className = "subMenuShow";
+				}
+				aNodes[i].onmouseout = function(){
+					this.className = "";
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="box">
+		<div id="top">
+			<div id="top_left">
+			<h2 class="d">家电</h2>
+			</div>
+			<div id="top_right">
+			<ul>
+				<li><a href="#" class="three">热门	  </a></li>
+				<li><a href="#">电视影音  </a></li>
+				<li><a href="#">电脑  </a></li>
+				<li><a href="#">家居  </a></li>
+			</ul>
+			</div>
+		</div>
+		<div id="bottom">
+			<div id="bottom_left">
+				<a>
+				<img src="picture/mi8.jpg"/>
+				</a>
+			</div>
+			<div id="bottom_right">
+				<div class="one">
+					<a>
+						<img src="picture/mi1.jpg" />
+						<h3>小米电视4A 32</h3>
+						<p>64位四核处理器/1GB+4GB大内存</p>
+						<p class="four">999元</p>
+						<span>很不错，超级轻，画面超级好，很满意，物美价廉，推荐购......来自lu-2014的评价</span>
+					</a>
+				</div>
+				<div class="one">
+					<a>
+						<img src="picture/mi2.png"/>
+						<h3>小米电视4A 49英寸 标准版</h3>
+						<p>2GB+8GB 大储存/全高清HDR</p>
+						<p class="four">2399元</p>
+						<span>外形高大上，小米品牌果然非同一般<br/>来自石家辉的评价</span>
+					</a>
+				</div>
+				<div class="one">
+					<a>
+						<img src="picture/mi3.jpg"/>
+						<h3>小米笔记本Pro 15.6英寸</h3>
+						<p>全金属强化机身/FHD全贴合屏幕</p>
+						<p class="four">5599元</p>
+						<span>外形超好看，手感超棒，这果然是我爱的小米......<br/>来自1562255584的评价</span>
+					</a>
+				</div>
+				<div class="one">
+					<a>
+						<img src="picture/mi4.jpg"/>
+						<h3>小米笔记本Air 13.3 i7处理器</h3>
+						<p>intel酷睿i7处理器，8GB内存+256GB</p>
+						<p class="four">5999元</p>
+						<span>收到了，非常满意，冲着藏头诗来的...<br/>来自38224753的评价</span>
+					</a>
+				</div>
+				<div class="one">
+					<a>
+						<img src="picture/mi5.jpg"/>
+						<h3>米家恒温电水壶</h3>
+						<p>水温智能控制，304不锈钢内胆</p>
+						<p class="four">199元</p>
+						<span>质量杠杠的，白色的好看，希望小米...<br/>来自orange的评价</span>
+					</a>
+				</div>
+				<div class="one">
+					<a>
+						<img src="picture/mi6.jpg" />
+						<h3>智米全直流变频空调</h3>
+						<h4>一级能效，强劲冷暖<h4/>
+						<h4 class="four">4399元</h4>
+					</a>
+				</div>
+				<div class="one">
+					<a>
+						<img src="picture/mi7.jpg" />
+						<h3>小米净水器（厨上式）增强版</h3>
+						<p>400加仑大流量，春水更多，废水更少</p>
+						<p class="four">1499元</p>
+						<span>此乃王母娘娘蟠桃大会专用净水器...<br/>来自北极星的评价</span>
+					</a>
+				</div>
+				<div class="one">
+					<div class="two">
+						<a>
+							<img src="picture/mi9.jpg" class="two" />
+							<h3>小白摄像头</h3>
+							<h4 class="four">399元</h4>
+						</a>
+					</div>
+					<div class="two">
+						<a>
+						<img src="picture/mi10.png" class="two" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
